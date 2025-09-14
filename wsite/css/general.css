@@ -1,0 +1,108 @@
+/*************** Reset *********************/
+* {
+margin: 0;
+padding: 0px;
+box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: block;
+}
+
+nav {
+  display:flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+header {
+  background-color: rgb(84, 199, 201);
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: aliceblue;
+
+}
+a:hover {
+  color: black;
+}
+
+.box01 {
+  a {
+    color: blue;
+  } 
+  a:hover {
+    color: blueviolet;
+  }
+}
+
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Amethysta", serif;
+  font-weight: 400;
+  font-style: normal;
+  border-bottom: 2px solid black
+}
+
+h3 {
+  color: hotpink;
+}
+
+p {
+  font-family: "Amethysta", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+ul {
+  padding-left: 30px;
+}
+
+.button {
+  background-color:  rgb(164, 164, 245);
+  height: 3em;
+  width: 10em;
+  margin-top: 60px;
+  border-radius: .5em;
+}
+
+.button:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+
+footer {
+  display: flex;
+  background-color:  rgb(84, 199, 201);
+  color: aliceblue;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    color: aliceblue;
+  }
+  a {
+    margin: 0;
+  }
+}
+
